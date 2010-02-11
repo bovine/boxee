@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:boxee="http://boxee.tv/spec/rss/" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>diynetwork</title>
+    <link>http://boxee.bovine.net/</link>
+    <boxee:display>
+      <boxee:sort default="1">
+        <boxee:sort-option id="1" sort-by="none"/>
+      </boxee:sort>
+    </boxee:display>
+
+    <item>
+      <title>Renovation Realities</title>
+      <link>rss://boxee.bovine.net/diyfetch.cgi?id=21501</link>
+    </item>
+    <item>
+      <title>Yard Crashers</title>
+      <link>rss://boxee.bovine.net/diyfetch.cgi?id=32252</link>
+    </item>
+    <item>
+      <title>Sweat Equity</title>
+      <link>rss://boxee.bovine.net/diyfetch.cgi?id=21502</link>
+    </item>
+    <item>
+      <title>Desperate Landscapes</title>
+      <link>rss://boxee.bovine.net/diyfetch.cgi?id=32583</link>
+    </item>
+    <item>
+      <title>Disaster House</title>
+      <link>rss://boxee.bovine.net/diyfetch.cgi?id=28601</link>
+    </item>
+    <item>
+      <title>BATHtastic!</title>
+      <link>rss://boxee.bovine.net/diyfetch.cgi?id=32601</link>
+    </item>
+    <item>
+      <title>Man Caves</title>
+      <link>rss://boxee.bovine.net/diyfetch.cgi?id=32604</link>
+    </item>
+    <item>
+      <title>Rock Solid</title>
+      <link>rss://boxee.bovine.net/diyfetch.cgi?id=21504</link>
+    </item>
+    <item>
+      <title>Garage Mahal</title>
+      <link>rss://boxee.bovine.net/diyfetch.cgi?id=22541</link>
+    </item>
+    <item>
+      <title>Kitchen Impossible</title>
+      <link>rss://boxee.bovine.net/diyfetch.cgi?id=32403</link>
+    </item>
+    <item>
+      <title>House Crashers</title>
+      <link>rss://boxee.bovine.net/diyfetch.cgi?id=25343</link>
+    </item>
+
+  </channel>
+</rss>
+

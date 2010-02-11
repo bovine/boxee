@@ -1,0 +1,16 @@
+<app>
+  <id>net.bovine.diynetwork</id>
+  <name>DIY Network</name>
+  <version>1.0</version>
+  <description>DIY Network</description>
+  <thumb>http://boxee.bovine.net/diylogo.jpg</thumb>
+  <media>video</media>
+  <copyright>DIY Network</copyright>
+  <email>boxee@bovine.net</email>
+  <type>rss</type>
+  <platform>all</platform>
+  <minversion>0.9.11</minversion>
+  <repository>http://boxee.bovine.net</repository>
+  <repositoryid>net.bovine</repositoryid>
+  <url>rss://boxee.bovine.net/diynetwork.xml</url>
+</app>
