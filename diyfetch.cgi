@@ -11,6 +11,7 @@ my $ua = LWP::UserAgent->new;
 $ua->timeout(10);
 
 my $id = param('id') || die "no feed id specified"; 
+die "bad id" if $id !~ m/^\d+$/;     # block unsafe chars
 my $url = "http://www.diynetwork.com/diy/channel/xml/0,,$id,00.xml";
 my $response = $ua->get($url);
 
@@ -20,7 +21,7 @@ if (!$response->is_success) {
 
 
 my $xml = $response->content;
-$xml =~ s/^[\r\n\s]+(<\?xml)/$1/s;
+$xml =~ s/^[\r\n\s]+(<\?xml)/$1/s;   # remove stray linebreaks that break XML parsing.
 my $ref = XMLin($xml) || die "failed to parse xml feed";
 
 
@@ -47,6 +48,7 @@ foreach my $video (@{$ref->{video}}) {
     #print Dumper(\$video);
     die "expecting wmv type" if $video->{'videoUrl'} !~ m/\.wmv$/;
 
+    # TODO: escape unsafe chars as XML entities
     print <<DOCEND;
     <item>
     <title>$video->{'clipName'}</title>
